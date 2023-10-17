@@ -16,7 +16,7 @@ fn main() {
     //0,1 can also be used
     let d: char ='s';
     //single charater
-    
+  
     //Compond Data Types
     //tuple
     let tup: (i32,bool,char) = (1,true,'s');
@@ -32,10 +32,10 @@ fn main() {
     arr[2]=45;
     println!("{}",arr[2]);
     //type change in array data type with number of elements
-    let mut arry2:[i32;6]=[1,23,43,65,223,424,3444];
-
-    let x: u32 =45;
-    let y=x;
-    println!=("{},{}",x,y);
+    let mut arry2: [i128 : 6]=[1,23,43,65,22,42,34];
+    println!("{}",arr2[2]);
+    let f: u32 =45;
+    let g=f;
+    println!=("{},{}",g,f);
     
 }
